@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.Domain", "FaceLessBook.Domain\FaceLessBook.Domain.csproj", "{E9E7599B-20A2-4C2F-8545-76748EEC1A15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain - Core Business App", "Domain - Core Business App", "{01CAA290-3339-4DDC-A0B9-4F5146523C0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C58E06FD-24E4-4C84-BA82-687D0BEB9FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.Infrastructure.Data.SqlServer", "FaceLessBook.Infrastructure.Data.SqlServer\FaceLessBook.Infrastructure.Data.SqlServer.csproj", "{F8E61FD8-2DE3-499D-A0D4-ED36C65A56EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7201CB43-213D-4D4F-A3E2-69D2623A725E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.AcceptanceTests", "FaceLessBook.AcceptanceTests\FaceLessBook.AcceptanceTests.csproj", "{08184405-5297-4D36-9204-17A0233DE329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.TestData", "FaceLessBook.TestData\FaceLessBook.TestData.csproj", "{E8A7BC6D-08F0-485E-9497-A726F8747D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.TestData.SqlServer", "FaceLessBook.TestData.SqlServer\FaceLessBook.TestData.SqlServer.csproj", "{ABD6A9A0-5A14-418B-B738-475C2E0209FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI - MVP Pattern", "UI - MVP Pattern", "{464B06F8-1AF7-45A0-A5B0-04072551AF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.UI.MVP", "FaceLessBook.UI.MVP\FaceLessBook.UI.MVP.csproj", "{C3054D45-D315-4DF9-AC15-C9CD9112C404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.WebForms", "FaceLessBook.WebForms\FaceLessBook.WebForms.csproj", "{002B2DCE-7EBE-4E43-B87D-65E64FA2753F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceLessBook.Infrastructure", "FaceLessBook.Infrastructure\FaceLessBook.Infrastructure.csproj", "{219C9D4E-3256-4272-BEF5-86836FA9C855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9E7599B-20A2-4C2F-8545-76748EEC1A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E7599B-20A2-4C2F-8545-76748EEC1A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E7599B-20A2-4C2F-8545-76748EEC1A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E7599B-20A2-4C2F-8545-76748EEC1A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E61FD8-2DE3-499D-A0D4-ED36C65A56EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E61FD8-2DE3-499D-A0D4-ED36C65A56EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E61FD8-2DE3-499D-A0D4-ED36C65A56EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E61FD8-2DE3-499D-A0D4-ED36C65A56EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08184405-5297-4D36-9204-17A0233DE329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08184405-5297-4D36-9204-17A0233DE329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08184405-5297-4D36-9204-17A0233DE329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08184405-5297-4D36-9204-17A0233DE329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A7BC6D-08F0-485E-9497-A726F8747D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A7BC6D-08F0-485E-9497-A726F8747D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A7BC6D-08F0-485E-9497-A726F8747D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A7BC6D-08F0-485E-9497-A726F8747D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD6A9A0-5A14-418B-B738-475C2E0209FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD6A9A0-5A14-418B-B738-475C2E0209FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD6A9A0-5A14-418B-B738-475C2E0209FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD6A9A0-5A14-418B-B738-475C2E0209FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3054D45-D315-4DF9-AC15-C9CD9112C404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3054D45-D315-4DF9-AC15-C9CD9112C404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3054D45-D315-4DF9-AC15-C9CD9112C404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3054D45-D315-4DF9-AC15-C9CD9112C404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002B2DCE-7EBE-4E43-B87D-65E64FA2753F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002B2DCE-7EBE-4E43-B87D-65E64FA2753F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002B2DCE-7EBE-4E43-B87D-65E64FA2753F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002B2DCE-7EBE-4E43-B87D-65E64FA2753F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219C9D4E-3256-4272-BEF5-86836FA9C855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219C9D4E-3256-4272-BEF5-86836FA9C855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219C9D4E-3256-4272-BEF5-86836FA9C855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219C9D4E-3256-4272-BEF5-86836FA9C855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9E7599B-20A2-4C2F-8545-76748EEC1A15} = {01CAA290-3339-4DDC-A0B9-4F5146523C0C}
+		{F8E61FD8-2DE3-499D-A0D4-ED36C65A56EE} = {C58E06FD-24E4-4C84-BA82-687D0BEB9FDE}
+		{08184405-5297-4D36-9204-17A0233DE329} = {7201CB43-213D-4D4F-A3E2-69D2623A725E}
+		{E8A7BC6D-08F0-485E-9497-A726F8747D49} = {7201CB43-213D-4D4F-A3E2-69D2623A725E}
+		{ABD6A9A0-5A14-418B-B738-475C2E0209FD} = {7201CB43-213D-4D4F-A3E2-69D2623A725E}
+		{C3054D45-D315-4DF9-AC15-C9CD9112C404} = {464B06F8-1AF7-45A0-A5B0-04072551AF97}
+		{002B2DCE-7EBE-4E43-B87D-65E64FA2753F} = {464B06F8-1AF7-45A0-A5B0-04072551AF97}
+		{219C9D4E-3256-4272-BEF5-86836FA9C855} = {C58E06FD-24E4-4C84-BA82-687D0BEB9FDE}
+	EndGlobalSection
+EndGlobal
