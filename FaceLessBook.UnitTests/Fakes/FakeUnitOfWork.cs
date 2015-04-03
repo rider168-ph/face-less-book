@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FaceLessBook.Domain.Contracts.Data;
+﻿using FaceLessBook.Domain.Contracts.Data;
 using FaceLessBook.Domain.Models;
-using FaceLessBook.TestData;
 
 namespace FaceLessBook.UnitTests.Fakes
 {

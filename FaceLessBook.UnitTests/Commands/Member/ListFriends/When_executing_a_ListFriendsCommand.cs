@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FaceLessBook.Domain.Commands.Member;
+﻿using FaceLessBook.Domain.Commands.Member;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace FaceLessBook.UnitTests.Commands.Member.ListFriends

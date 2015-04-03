@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using FaceLessBook.Domain.Contracts;
 using FaceLessBook.Domain.Contracts.Data;
 
 namespace FaceLessBook.Infrastructure.Data.SqlServer.Repositories

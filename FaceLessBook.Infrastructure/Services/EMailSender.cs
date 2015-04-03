@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
 using FaceLessBook.Domain.Contracts.Logger;
 using FaceLessBook.Domain.Contracts.Services;
 

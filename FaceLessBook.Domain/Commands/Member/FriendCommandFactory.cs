@@ -1,5 +1,4 @@
-﻿using System;
-using FaceLessBook.Domain.Contracts.Commands;
+﻿using FaceLessBook.Domain.Contracts.Commands;
 using FaceLessBook.Domain.Contracts.Data;
 
 namespace FaceLessBook.Domain.Commands.Member

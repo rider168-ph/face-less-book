@@ -1,5 +1,4 @@
 using System.Data.Entity.Migrations;
-using FaceLessBook.Domain.Models;
 
 namespace FaceLessBook.TestData.SqlServer.Migrations
 {
